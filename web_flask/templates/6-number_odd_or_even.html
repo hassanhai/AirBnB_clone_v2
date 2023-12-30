@@ -4,6 +4,7 @@
         <TITLE>HBNB</TITLE>
     </HEAD>
     <BODY>
+<<<<<<< HEAD
         <H1>Number: {{ n }} is {{ evenness }}</H1>
     </BODY>
 </HTML>
@@ -22,5 +23,8 @@ web_flask/templates/7-states_list.html
             <LI>{{ state.id }}: <B>{{ state.name }}</B></LI>
         {% endfor %}
         </UL>
+=======
+        <H1>Number: {{ n }} is {% if n % 2 == 0 %}even{% else %}odd{% endif %}</H1>
+>>>>>>> e249531fb35d6ac70fb66b24376a91afd3da13da
     </BODY>
 </HTML>
